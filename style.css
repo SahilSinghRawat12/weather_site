@@ -107,3 +107,30 @@ body {
   margin-top: 10px;
   display: none;
 }
+
+
+@media only screen and (max-device-width: 465px) {
+   .search{
+  
+    display:block;
+   }
+
+   .search button{
+     margin: 20px;
+   }
+
+
+   
+.humidity,
+.wind {
+  font-size: 20px;
+  margin-top: -6px;
+  
+}
+
+.col img {
+  width: 40px;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+}
